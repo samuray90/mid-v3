@@ -1,9 +1,10 @@
 import React from "react";
+import { StyledSkills } from "./skills.style";
 
 const Skills = () => {
   return (
     <div>
-      <h4>Great Skills</h4>
+      <StyledSkills>Great Skills</StyledSkills>
     </div>
   );
 };

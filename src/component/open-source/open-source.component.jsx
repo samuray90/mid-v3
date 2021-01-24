@@ -1,9 +1,10 @@
 import React from "react";
+import { StyledH2 } from "./open-source.style";
 
 const OpenSource = () => {
   return (
     <div>
-      <h3>Put the stuff in.</h3>
+      <StyledH2>Put the stuff in.</StyledH2>
     </div>
   );
 };
