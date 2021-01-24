@@ -1,11 +1,10 @@
 import React from "react";
+import { StyledTitle } from "./welcome.style";
 
 const Welcome = () => {
   return (
     <div>
-      <h4>my title for today</h4>
-      <h4>my title for today</h4>
-      <h4>my title for today</h4>
+      <StyledTitle>Welcome</StyledTitle>
     </div>
   );
 };
