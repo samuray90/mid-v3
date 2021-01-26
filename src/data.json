@@ -1,13 +1,9 @@
 {
   "welcome": {
-    "person": {
-      "fistName": "Ionut Daniel",
-      "lastName": " Daniel Petrut",
-      "nickName": "Johnny"
-    },
+    "name": "Ionut Daniel Petrut",
     "jobTitle": "Junior Front End Developer",
     "sectionTitle": "About Me",
-    "sectionDescription": "The new era of programing languages got me `hypnotized`, since there I am gladly following Codetap.academy's guidance and proudly getting on top of the latest technologies."
+    "sectionDescription": "The new era of programing languages got me `hypnotized`and  it happens that my passion is my job, so giving my entire energy to web developing is not an issue for me..."
   },
   "connect": {
     "socialList": {
