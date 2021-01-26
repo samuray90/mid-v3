@@ -1,27 +1,42 @@
 import React, { useEffect, useState } from "react";
-import { StyledColumn } from "../column/column.style";
+import { StyledIcon, StyledIconWrapper } from "../icomoon";
 import * as SC from "./welcome.style";
+import { config } from "../icomoon/icon.config";
+
+const url = "http://localhost:4000/welcome";
 
 const Welcome = () => {
   const [welcome, updateWelcome] = useState({});
 
+  //the explination
+
+  // const callBack = () => {
+  //   (async () => {
+  //     const response = await (await fetch(url)).json();
+  //     updateWelcome(response);
+  //   })();
+  // };
+  // const dependancyArray = [];
+  // useEffect(callBack, dependancyArray);
+
   useEffect(() => {
-    fetch("http://localhost:4000/welcome")
-      .then((result) => result.json())
-      .then((result) => updateWelcome(result));
+    (async () => {
+      const response = await (await fetch(url)).json();
+      updateWelcome(response);
+    })(); //IIFE immediately invoked function expression / type = anonymous async function
   }, []);
+
   return (
-    <div>
+    <>
       <SC.StyledH1>Welcome</SC.StyledH1>
-      <StyledColumn height={40} />
+      <StyledIconWrapper>
+        <StyledIcon {...config.youtube} />
+      </StyledIconWrapper>
       <SC.StyledName>{welcome.name}</SC.StyledName>
-      <StyledColumn height={40} />
-      <SC.StyledH3>Junior Web Developer</SC.StyledH3>
-      <StyledColumn height={40} />
-      <SC.StyledH3>About me</SC.StyledH3>
-      <StyledColumn height={40} />
+      <SC.StyledH3>{welcome.jobTitle}</SC.StyledH3>
+      <SC.StyledH3>{welcome.sectionTitle}</SC.StyledH3>
       <SC.StyledDescription>{welcome.sectionDescription}</SC.StyledDescription>
-    </div>
+    </>
   );
 };
 export { Welcome };
