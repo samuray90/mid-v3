@@ -1,30 +1,44 @@
 import styled from "styled-components";
 
-export const StyledContact = styled.div`
+export const StyledH1 = styled.h1`
+  padding: 10px;
+  height: 60px;
+  background-color: #d52027;
   position: relative;
-  padding-top: 20px;
-  padding: 4px;
-  grid-gap: 10px;
   align-items: center;
   justify-content: center;
-  border: 3px solid orchid;
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: bolder;
   display: flex;
-  height: 250px;
-`;
-
-export const StyledLi = styled.li`
-  height: 45px;
-  background-color: lightpink;
-  border: 2px solid lightyellow;
-  font-family: sans-serif;
-  justify-content: center;
-  display: flex;
-  padding-top: 10px;
+  color: #fff;
 `;
 
 export const StyledH3 = styled.h3`
-  color: red;
+  font-size: 30px;
+  display: flex;
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+`;
+
+export const StyledName = styled.div`
+  font-size: 45px;
+  display: flex;
+  font-weight: 600;
+  color: #707070;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+`;
+
+export const StyledDescription = styled.div`
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #707070;
+  font-weight: 600;
+  line-height: 30px;
 `;

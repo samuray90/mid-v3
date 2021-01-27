@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import { Icon } from "../icomoon/icomoon.component";
 
 export const StyledH1 = styled.h1`
   padding: 10px;
@@ -11,6 +10,7 @@ export const StyledH1 = styled.h1`
   display: flex;
   color: #fff;
 `;
+StyledH1.displayName = "Header1";
 
 export const StyledH3 = styled.h3`
   font-size: 30px;
@@ -22,6 +22,8 @@ export const StyledH3 = styled.h3`
   margin-bottom: 30px;
 `;
 
+StyledH3.displayName = "Header";
+
 export const StyledName = styled.div`
   font-size: 45px;
   display: flex;
@@ -31,6 +33,8 @@ export const StyledName = styled.div`
   justify-content: center;
   margin-bottom: 30px;
 `;
+
+StyledName.displayName = "LineName";
 
 export const StyledDescription = styled.div`
   background-color: #fff;
@@ -43,3 +47,5 @@ export const StyledDescription = styled.div`
   font-weight: 600;
   line-height: 30px;
 `;
+
+StyledDescription.displayName = "LineDescription";

@@ -1,236 +1,240 @@
 {
-  "welcome": {
-    "name": "Ionut Daniel Petrut",
-    "jobTitle": "Junior Front End Developer",
-    "sectionTitle": "About Me",
-    "sectionDescription": "The new era of programing languages got me `hypnotized`and  it happens that my passion is my job, so giving my entire energy to web developing is not an issue for me..."
-  },
-  "connect": {
-    "socialList": {
-      "codetap": {
-        "title": "CodeTap",
-        "icon": "codetap",
-        "description": "Get in contact with us and you will get top information regarding your code and the best mentorship in London.",
-        "link": "https://bitbee.uk"
-      },
-      "github": {
-        "title": "GitHub",
-        "icon": "github",
-        "description": "Here are all my projects.",
-        "link": "https://github.com/samuray90"
-      },
-      "stackoverflow": {
-        "title": "StackOverFlow",
-        "icon": "stackoverflow",
-        "description": "I am on Stackoverflow as well. Perfect place to ask for help.",
-        "link": "https://https://stackoverflow.com/users/14872486/johnny"
-      },
-      "linkedIn": {
-        "title": "LinkedIn",
-        "icon": "linkedin",
-        "description": "I keep myself connected  with my colleagues even with the recruiters.",
-        "link": "https://www.linkedin.com/in/i-daniel-petrut-88153b2b/"
-      },
-      "facebook": {
-        "title": "Facebook",
-        "icon": "facebook",
-        "description": "To get closer to each other send me a friend request.",
-        "link": "https://www.facebook.com/ionutdaniel.petrut"
-      },
-      "instagram": {
-        "title": "Instagram",
-        "icon": "instagram",
-        "description": "Whatever i think is funny or looks good gets posted here.",
-        "link": "https://www.instagram.com/ionutdanielpetrut/"
-      },
-      "skype": {
-        "title": "Skype",
-        "icon": "skype",
-        "description": "Let's connect on Skype.",
-        "link": "https://www.skype.com/en/"
-      },
-      "udemy": {
-        "title": "Udemy",
-        "icon": "udemy",
-        "description": "If I need something urgent, I always check on Udemy.",
-        "link": "https://www.udemy.com/user/ionut-daniel-petrut/"
-      },
-      "codewars": {
-        "title": "CodeWars",
-        "icon": "codewars",
-        "description": " In my spare time I jump over here and strat a new 'war' .",
-        "link": "https://www.codewars.com/users/samuray_09"
+  "data": {
+    "welcome": {
+      "greeting": "Welcome",
+      "name": "Ionut Daniel Petrut",
+      "jobTitle": "Junior Front End Developer",
+      "sectionTitle": "About Me",
+      "sectionDescription": "The new era of programing languages got me `hypnotized`and  it happens that my passion is my job, so giving my entire energy to web developing is not an issue for me..."
+    },
+    "connect": {
+      "sectionTitle": "Meet Me",
+      "socialList": {
+        "codetap": {
+          "title": "CodeTap",
+          "icon": "codetap",
+          "description": "Get in contact with us and you will get top information regarding your code and the best mentorship in London.",
+          "link": "https://bitbee.uk"
+        },
+        "github": {
+          "title": "GitHub",
+          "icon": "github",
+          "description": "Here are all my projects.",
+          "link": "https://github.com/samuray90"
+        },
+        "stackoverflow": {
+          "title": "StackOverFlow",
+          "icon": "stackoverflow",
+          "description": "I am on Stackoverflow as well. Perfect place to ask for help.",
+          "link": "https://https://stackoverflow.com/users/14872486/johnny"
+        },
+        "linkedIn": {
+          "title": "LinkedIn",
+          "icon": "linkedin",
+          "description": "I keep myself connected  with my colleagues even with the recruiters.",
+          "link": "https://www.linkedin.com/in/i-daniel-petrut-88153b2b/"
+        },
+        "facebook": {
+          "title": "Facebook",
+          "icon": "facebook",
+          "description": "To get closer to each other send me a friend request.",
+          "link": "https://www.facebook.com/ionutdaniel.petrut"
+        },
+        "instagram": {
+          "title": "Instagram",
+          "icon": "instagram",
+          "description": "Whatever i think is funny or looks good gets posted here.",
+          "link": "https://www.instagram.com/ionutdanielpetrut/"
+        },
+        "skype": {
+          "title": "Skype",
+          "icon": "skype",
+          "description": "Let's connect on Skype.",
+          "link": "https://www.skype.com/en/"
+        },
+        "udemy": {
+          "title": "Udemy",
+          "icon": "udemy",
+          "description": "If I need something urgent, I always check on Udemy.",
+          "link": "https://www.udemy.com/user/ionut-daniel-petrut/"
+        },
+        "codewars": {
+          "title": "CodeWars",
+          "icon": "codewars",
+          "description": " In my spare time I jump over here and strat a new 'war' .",
+          "link": "https://www.codewars.com/users/samuray_09"
+        }
       }
+    },
+    "menu": {
+      "menuList": [
+        "Welcome",
+        "Let's connect",
+        "Skills",
+        "Experience",
+        "Open Source",
+        "Portfolio",
+        "Recommendations",
+        "Reviews"
+      ]
+    },
+    "skill": {
+      "sectionTitle": "Skills",
+      "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+      "legend": {
+        "title": "Legend",
+        "itemList": [
+          {
+            "icon": "heart",
+            "color": "red",
+            "label": "Skills I love",
+            "number": "1"
+          },
+          {
+            "icon": "trophy",
+            "color": "green",
+            "label": "Skills I master",
+            "number": "2"
+          },
+          {
+            "icon": "book",
+            "color": "orange",
+            "label": "Skills I'd love to improve",
+            "number": "3"
+          }
+        ]
+      },
+      "frontEnd": {
+        "frontTile": "Front End",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "HTML"
+          },
+          {
+            "color": "red",
+            "label": "CSS"
+          },
+          {
+            "color": "red",
+            "label": "JavaScript"
+          },
+          {
+            "color": "red",
+            "label": "React"
+          },
+          {
+            "color": "red",
+            "label": "Redux"
+          },
+          {
+            "color": "red",
+            "label": "Styled Components"
+          },
+          {
+            "color": "red",
+            "label": "Vue"
+          },
+          {
+            "color": "green",
+            "label": "Sass"
+          },
+          {
+            "color": "green",
+            "label": "Less"
+          },
+          {
+            "color": "green",
+            "label": "Material UI"
+          },
+          {
+            "color": "green",
+            "label": "SEO"
+          }
+        ]
+      },
+      "backEnd": {
+        "backTitle": "Back End",
+        "backSkillList": [
+          {
+            "color": "red",
+            "label": "Pug"
+          },
+          {
+            "color": "red",
+            "label": "Nodejs"
+          },
+          {
+            "color": "red",
+            "label": "FireBase"
+          },
+          {
+            "color": "green",
+            "label": "Git"
+          },
+          {
+            "color": "green",
+            "label": "Linux"
+          },
+          {
+            "color": "green",
+            "label": "Rest"
+          },
+          {
+            "color": "green",
+            "label": "Rest"
+          },
+          {
+            "color": "green",
+            "label": "MySQL"
+          },
+          {
+            "color": "gold",
+            "label": "SMS"
+          },
+          {
+            "color": "gold",
+            "label": "BlockChain"
+          },
+          {
+            "color": "gold",
+            "label": "GraphQL"
+          }
+        ]
+      },
+      "Others": {
+        "othersTitle": "Others",
+        "otherSkillList": [
+          {
+            "color": "red",
+            "label": "Windows 10"
+          },
+          {
+            "color": "red",
+            "label": "Cortana"
+          },
+          {
+            "color": "red",
+            "label": "Ajax"
+          },
+          {
+            "color": "green",
+            "label": "Go"
+          },
+          {
+            "color": "green",
+            "label": "Next"
+          },
+          {
+            "color": "green",
+            "label": "cmd"
+          }
+        ]
+      }
+    },
+    "experience": {
+      "sectionTitle": "Experience",
+      "jobList": []
     }
-  },
-  "menu": {
-    "menuList": [
-      "Welcome",
-      "Let's connect",
-      "Skills",
-      "Experience",
-      "Open Source",
-      "Portfolio",
-      "Recommendations",
-      "Reviews"
-    ]
-  },
-  "skill": {
-    "sectionTitle": "Skills",
-    "description": "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
-    "legend": {
-      "title": "Legend",
-      "itemList": [
-        {
-          "icon": "heart",
-          "color": "red",
-          "label": "Skills I love",
-          "number": "1"
-        },
-        {
-          "icon": "trophy",
-          "color": "green",
-          "label": "Skills I master",
-          "number": "2"
-        },
-        {
-          "icon": "book",
-          "color": "orange",
-          "label": "Skills I'd love to improve",
-          "number": "3"
-        }
-      ]
-    },
-    "frontEnd": {
-      "frontTile": "Front End",
-      "skillList": [
-        {
-          "color": "red",
-          "label": "HTML"
-        },
-        {
-          "color": "red",
-          "label": "CSS"
-        },
-        {
-          "color": "red",
-          "label": "JavaScript"
-        },
-        {
-          "color": "red",
-          "label": "React"
-        },
-        {
-          "color": "red",
-          "label": "Redux"
-        },
-        {
-          "color": "red",
-          "label": "Styled Components"
-        },
-        {
-          "color": "red",
-          "label": "Vue"
-        },
-        {
-          "color": "green",
-          "label": "Sass"
-        },
-        {
-          "color": "green",
-          "label": "Less"
-        },
-        {
-          "color": "green",
-          "label": "Material UI"
-        },
-        {
-          "color": "green",
-          "label": "SEO"
-        }
-      ]
-    },
-    "backEnd": {
-      "backTitle": "Back End",
-      "backSkillList": [
-        {
-          "color": "red",
-          "label": "Pug"
-        },
-        {
-          "color": "red",
-          "label": "Nodejs"
-        },
-        {
-          "color": "red",
-          "label": "FireBase"
-        },
-        {
-          "color": "green",
-          "label": "Git"
-        },
-        {
-          "color": "green",
-          "label": "Linux"
-        },
-        {
-          "color": "green",
-          "label": "Rest"
-        },
-        {
-          "color": "green",
-          "label": "Rest"
-        },
-        {
-          "color": "green",
-          "label": "MySQL"
-        },
-        {
-          "color": "gold",
-          "label": "SMS"
-        },
-        {
-          "color": "gold",
-          "label": "BlockChain"
-        },
-        {
-          "color": "gold",
-          "label": "GraphQL"
-        }
-      ]
-    },
-    "Others": {
-      "othersTitle": "Others",
-      "otherSkillList": [
-        {
-          "color": "red",
-          "label": "Windows 10"
-        },
-        {
-          "color": "red",
-          "label": "Cortana"
-        },
-        {
-          "color": "red",
-          "label": "Ajax"
-        },
-        {
-          "color": "green",
-          "label": "Go"
-        },
-        {
-          "color": "green",
-          "label": "Next"
-        },
-        {
-          "color": "green",
-          "label": "cmd"
-        }
-      ]
-    }
-  },
-  "experience": {
-    "sectionTitle": "Experience",
-    "jobList": []
   }
 }
