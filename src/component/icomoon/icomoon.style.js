@@ -32,8 +32,11 @@ export const StyledPic = styled.div`
 `;
 
 export const StyledIconMedia = styled(Icon)`
-  background-color: ${colors.blue};
+  background-color: ${(props) =>
+    props.backgroundColor ? props.backgroundColor : colors.blue};
   padding: 13px;
   border-radius: 15px;
   margin: 5px;
+  width: 24px;
+  height: 24px;
 `;
