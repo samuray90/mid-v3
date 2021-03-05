@@ -2,6 +2,7 @@ import React from "react";
 import { StyledIcon, StyledIconWrapper } from "../icomoon";
 import * as SC from "./welcome.style";
 import { config } from "../icomoon/icon.config";
+import { Icon } from "../icomoon/icomoon.component";
 
 const Welcome = ({ data }) => {
   return (
@@ -9,6 +10,7 @@ const Welcome = ({ data }) => {
       {data ? (
         <>
           <SC.StyledH1>{data.greeting}</SC.StyledH1>
+
           <StyledIconWrapper>
             <StyledIcon {...config.youtube} />
           </StyledIconWrapper>
@@ -16,10 +18,17 @@ const Welcome = ({ data }) => {
           <SC.StyledH3>{data.jobTitle}</SC.StyledH3>
           <SC.StyledH3>{data.sectionTitle}</SC.StyledH3>
           <SC.StyledDescription>{data.sectionDescription}</SC.StyledDescription>
+          <SC.Cell>
+            <SC.DownloadButton>
+              <SC.StyledDownloadIcon {...config.download} />
+              <SC.StyledButtonText>Download</SC.StyledButtonText>
+            </SC.DownloadButton>
+          </SC.Cell>
         </>
       ) : (
         <div>Loading Welcome Section tomorrow !</div>
       )}
+      ;
     </>
   );
 };

@@ -4,7 +4,7 @@ import image from "../../asset/image/poza1.jpg";
 import { colors } from "../../constants/colors";
 
 export const StyledIcon = styled(Icon)`
-  background-color: ${colors.red};
+  background-color: ${({ backgroundColor }) => backgroundColor};
   padding: 13px;
   border-radius: 50%;
 `;
@@ -40,3 +40,11 @@ export const StyledIconMedia = styled(Icon)`
   width: 24px;
   height: 24px;
 `;
+
+export const StyledBlue = styled(Icon)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export { Icon };

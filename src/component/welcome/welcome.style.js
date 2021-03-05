@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Icon } from "../icomoon/icomoon.component";
 
 export const StyledH1 = styled.h1`
   padding: 10px;
@@ -10,7 +11,12 @@ export const StyledH1 = styled.h1`
   display: flex;
   color: #fff;
 `;
-StyledH1.displayName = "Header1";
+
+export const Cell = styled.div`
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+`;
 
 export const StyledH3 = styled.h3`
   font-size: 30px;
@@ -22,8 +28,6 @@ export const StyledH3 = styled.h3`
   margin-bottom: 30px;
 `;
 
-StyledH3.displayName = "Header";
-
 export const StyledName = styled.div`
   font-size: 45px;
   display: flex;
@@ -33,8 +37,6 @@ export const StyledName = styled.div`
   justify-content: center;
   margin-bottom: 30px;
 `;
-
-StyledName.displayName = "LineName";
 
 export const StyledDescription = styled.div`
   background-color: #fff;
@@ -48,4 +50,22 @@ export const StyledDescription = styled.div`
   line-height: 30px;
 `;
 
-StyledDescription.displayName = "LineDescription";
+export const StyledDownloadIcon = styled(Icon)`
+  padding: 10px;
+`;
+
+export const StyledButtonText = styled.div`
+  color: #fff;
+
+  font-size: 15px;
+`;
+
+export const DownloadButton = styled.div`
+  height: 40px;
+  width: 175;
+  border-radius: 25px;
+  padding: 0 10px;
+  background-color: #1875f0;
+  display: flex;
+  align-content: center;
+`;

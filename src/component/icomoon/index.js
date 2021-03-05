@@ -1,1 +1,1 @@
-export { StyledIcon, StyledIconWrapper } from "./icomoon.style";
+export { StyledIcon, StyledIconWrapper, Icon } from "./icomoon.style";

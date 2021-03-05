@@ -13,4 +13,5 @@
 
 export const newColor = {
   color: "#00FF00",
+  color2: "#D52027",
 };
