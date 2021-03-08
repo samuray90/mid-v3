@@ -28,4 +28,5 @@ const Contact = ({ data }) => {
     </>
   );
 };
+
 export { Contact };
