@@ -6,12 +6,10 @@ export const config = {
     icon: "youtube",
     backgroundColor: "#cc0000",
   },
-  download: {
+  download2: {
     size: 18,
-    color: "black",
+    color: "#fff",
     icon: "download",
-    backgroundColor: "#0c131a",
-    // width: "165px",
   },
   codetap: {
     size: 35,
@@ -28,7 +26,7 @@ export const config = {
   iconCross: {
     size: 30,
     color: "black",
-    id: 8,
+    id: 10,
     icon: "cross",
   },
   linkedin: {
@@ -58,13 +56,13 @@ export const config = {
   skype: {
     size: 35,
     color: "white",
-    id: 6,
+    id: 7,
     icon: "skype",
   },
   github: {
     size: 35,
     color: "white",
-    id: 7,
+    id: 8,
     icon: "github",
   },
 };

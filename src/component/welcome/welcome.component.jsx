@@ -2,7 +2,6 @@ import React from "react";
 import { StyledIcon, StyledIconWrapper } from "../icomoon";
 import * as SC from "./welcome.style";
 import { config } from "../icomoon/icon.config";
-import { Icon } from "../icomoon/icomoon.component";
 
 const Welcome = ({ data }) => {
   return (
@@ -20,7 +19,7 @@ const Welcome = ({ data }) => {
           <SC.StyledDescription>{data.sectionDescription}</SC.StyledDescription>
           <SC.Cell>
             <SC.DownloadButton>
-              <SC.StyledDownloadIcon {...config.download} />
+              <SC.StyledDownloadIcon {...config.download2} />
               <SC.StyledButtonText>Download</SC.StyledButtonText>
             </SC.DownloadButton>
           </SC.Cell>

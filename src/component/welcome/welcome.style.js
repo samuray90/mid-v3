@@ -56,13 +56,15 @@ export const StyledDownloadIcon = styled(Icon)`
 
 export const StyledButtonText = styled.div`
   color: #fff;
-
-  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
 `;
 
 export const DownloadButton = styled.div`
   height: 40px;
-  width: 175;
+  width: 140px;
   border-radius: 25px;
   padding: 0 10px;
   background-color: #1875f0;
