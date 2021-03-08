@@ -20,14 +20,18 @@ const Welcome = ({ data }) => {
           <SC.Cell>
             <SC.DownloadButton>
               <SC.StyledDownloadIcon {...config.download2} />
-              <SC.StyledButtonText>Download</SC.StyledButtonText>
+              <SC.StyledButtonText>Download CV</SC.StyledButtonText>
             </SC.DownloadButton>
           </SC.Cell>
+          <SC.Square>
+            <SC.DownArrow>
+              <SC.ButtonDown {...config.arrowDown} />
+            </SC.DownArrow>
+          </SC.Square>
         </>
       ) : (
         <div>Loading Welcome Section tomorrow !</div>
       )}
-      ;
     </>
   );
 };

@@ -16,6 +16,7 @@ export const Cell = styled.div`
   grid-column: 1/-1;
   display: flex;
   justify-content: center;
+  padding-top: 25px;
 `;
 
 export const StyledH3 = styled.h3`
@@ -70,4 +71,26 @@ export const DownloadButton = styled.div`
   background-color: #1875f0;
   display: flex;
   align-content: center;
+`;
+
+export const DownArrow = styled.div`
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #50d166;
+  width: 40px;
+  color: #fff;
+`;
+
+export const Square = styled.div`
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+`;
+
+export const ButtonDown = styled(Icon)`
+  color: #fff;
 `;

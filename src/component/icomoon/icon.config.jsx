@@ -11,6 +11,12 @@ export const config = {
     color: "#fff",
     icon: "download",
   },
+  arrowDown: {
+    size: 19,
+    color: "white",
+    backgroundColor: "#150",
+    icon: "arrow-down",
+  },
   codetap: {
     size: 35,
     color: "white",
