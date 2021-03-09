@@ -1,5 +1,5 @@
 export const config = {
-  youtube: {
+  youtube2: {
     size: 30,
     color: "white",
     id: 0,

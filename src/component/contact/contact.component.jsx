@@ -4,8 +4,20 @@ import * as SC from "./contact.style";
 import { config } from "../icomoon/icon.config";
 import { StyledIconMedia } from "../icomoon/icomoon.style";
 import { StyledPic } from "../icomoon/icomoon.style";
+import { InfoBox } from "../info-box";
 
 const Contact = ({ data }) => {
+  const [selectat, modificaSelectat] = useState(null);
+
+  // make use of useState by taking selected and another element which is modifing selected
+  const afiseaza = (id) => {
+    modificaSelectat(data.socialList[id]);
+  };
+
+  // make a constant who takes the id of each element and brings modificaSelectat calling data.socialList with every [id]
+  const inchide = () => modificaSelectat(null);
+
+  //here you bring inchide by setting it's result to null
   return (
     <>
       {data ? (
@@ -16,9 +28,21 @@ const Contact = ({ data }) => {
           </StyledIconWrapper>
           <StyledPic />
 
+          {selectat && (
+            <InfoBox close={inchide} {...selectat} {...data.description} />
+          )}
+
           {Object.keys(config).map((icon, id) => {
             return (
-              <StyledIconMedia icon={icon} size={30} color={"white"} id={id} />
+              <StyledIconMedia
+                // styledIconMedia use Object.keys method and call my (config) which is another component ant hen maps through it using icon and id and returns the icon with it's size color and the id
+                onClick={() => afiseaza(icon)}
+                // bring onClik to show your icon .
+                icon={icon}
+                size={30}
+                color={"white"}
+                id={id}
+              />
             );
           })}
         </>

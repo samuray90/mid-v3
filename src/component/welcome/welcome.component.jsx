@@ -11,7 +11,7 @@ const Welcome = ({ data }) => {
           <SC.StyledH1>{data.greeting}</SC.StyledH1>
 
           <StyledIconWrapper>
-            <StyledIcon {...config.youtube} />
+            <StyledIcon {...config.youtube2} />
           </StyledIconWrapper>
           <SC.StyledName>{data.name}</SC.StyledName>
           <SC.StyledH3>{data.jobTitle}</SC.StyledH3>

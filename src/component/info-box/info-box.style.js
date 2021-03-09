@@ -10,6 +10,8 @@ export const ContainerInfoBox = styled.div`
   background-color: #fff;
   margin-top: 1rem;
   position: relative;
+  border-radius: 26px;
+  box-shadow: 2px solid red(0, 23, 55, 24);
 
   &::after {
     content: "";
