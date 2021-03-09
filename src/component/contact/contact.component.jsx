@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { StyledIcon, StyledIconWrapper } from "../icomoon";
 import * as SC from "./contact.style";
 import { config } from "../icomoon/icon.config";
@@ -8,11 +8,19 @@ import { InfoBox } from "../info-box";
 
 const Contact = ({ data }) => {
   const [selectat, modificaSelectat] = useState(null);
+  useEffect(() => {
+    console.log("useEfect", selectat);
+  }, [selectat]);
+  // whenever selectat changes we get console.log('....)
+  // it starts off by being null
 
   // make use of useState by taking selected and another element which is modifing selected
   const afiseaza = (id) => {
-    modificaSelectat(data.socialList[id]);
+    console.log(data.socialList[id]);
+    return modificaSelectat(data.socialList[id]);
   };
+
+  // set modificaSelectat value [efect]
 
   // make a constant who takes the id of each element and brings modificaSelectat calling data.socialList with every [id]
   const inchide = () => modificaSelectat(null);
@@ -28,9 +36,7 @@ const Contact = ({ data }) => {
           </StyledIconWrapper>
           <StyledPic />
 
-          {selectat && (
-            <InfoBox close={inchide} {...selectat} {...data.description} />
-          )}
+          {selectat && <InfoBox close={inchide} {...selectat} />}
 
           {Object.keys(config).map((icon, id) => {
             return (

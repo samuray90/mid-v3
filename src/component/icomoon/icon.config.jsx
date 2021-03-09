@@ -23,17 +23,20 @@ export const config = {
     id: 1,
     icon: "codetap",
   },
+  link2: {
+    icon: "link",
+  },
   facebook: {
     size: 35,
     color: "white",
     id: 2,
     icon: "facebook",
   },
-  iconCross: {
+  cross1: {
     size: 30,
     color: "black",
-    id: 10,
-    icon: "cross",
+
+    icon: "icon__cross",
   },
   linkedin: {
     size: 35,
